@@ -15,7 +15,8 @@ class PayCheck:
 
     def mail_check(self,filename,email_id):
         try:
-            sender_address = 'dbmsminipro@gmail.com'
+            sender_address = #company's mail id
+            sender_password =  #company's mail id password
             receiver_address = email_id
             message = MIMEMultipart()
             message['From'] = sender_address
@@ -35,7 +36,7 @@ class PayCheck:
             message.attach(p)
             s = smtplib.SMTP('smtp.gmail.com',587)
             s.starttls()
-            s.login(sender_address, 'polymorphichack')
+            s.login(sender_address, sender_password)
             text = message.as_string()
             s.sendmail(sender_address, receiver_address, text)
             s.quit()
