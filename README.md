@@ -44,7 +44,7 @@ python main.py
 2.) The pdf files containing employee's payment details will be generated when the user chooses to generate paycheck using the interface. These pdf files will be stored in a folder named **paychecks**
 3.) In line 18 of paycheck.py, assign the company's email address to sender_address . This email address will be used to send the payment details of employees. In line 19 of paycheck.py, assign the company email's password to sender_password
 
-<h2> Possible Improvements to be made <h2>
+<h2> Possible Improvements to be made </h2>
   
   1.) Documentation of the programs is needed
   2.) Better error handling on user inputs is necessary
